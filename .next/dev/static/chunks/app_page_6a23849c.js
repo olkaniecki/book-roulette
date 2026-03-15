@@ -6,7 +6,7 @@
   "static/chunks/node_modules_framer-motion_dist_es_edfcb671._.js",
   "static/chunks/node_modules_tailwind-merge_dist_bundle-mjs_mjs_56b6fd65._.js",
   "static/chunks/node_modules_0a6aa842._.js",
-  "static/chunks/_7bfa5551._.js"
+  "static/chunks/_fe9a2b7f._.js"
 ],
     source: "dynamic"
 });

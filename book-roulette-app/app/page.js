@@ -4,6 +4,8 @@ import AddBook from "./components/add_book";
 import SpinnerWheel from "./components/roulette";
 import styled from "styled-components";
 import {LightRays} from "@/components/ui/light-rays";
+import { NeonGradientCard } from "@/components/ui/neon-gradient-card";
+import { AuroraText } from "@/components/ui/aurora-text";
 
 const AppContainer = styled.div`
   display: flex;
@@ -61,12 +63,15 @@ export default function Home() {
     <AppContainer>
       <LightRays />
       <LeftPane>
-        <SpinnerWheel books={books}/>
+        <div>
+          <AuroraText>Book Roulette</AuroraText>
+          <SpinnerWheel books={books}/>
+        </div>
       </LeftPane>
       <RightPane>
-        <TopRightBox>
+        <NeonGradientCard>
             <AddBook />
-        </TopRightBox>
+        </NeonGradientCard>
       </RightPane>
     </AppContainer>
   );
